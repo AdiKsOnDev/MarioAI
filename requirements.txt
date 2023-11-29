@@ -1,0 +1,3 @@
+tensorflow
+gym-super-mario-bros
+scipy
