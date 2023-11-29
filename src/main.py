@@ -18,6 +18,7 @@ def q_learning(enviroment, num_states, num_actions, num_of_episodes=1000):
 
     for episode in range(num_of_episodes):
         state = enviroment.reset()
+        print(str(state))
         terminated = False
         count = 0
 
