@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# ROM file
+*.nes
+
 # Distribution / packaging
 .Python
 build/
@@ -16,6 +19,8 @@ eggs/
 .eggs/
 lib/
 lib64/
+tmp/
+tensorboard/
 parts/
 sdist/
 var/
