@@ -4,7 +4,7 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.atari_wrappers import MaxAndSkipEnv
 
 
-model = PPO.load("tmp/best_model/best_model")
+model = PPO.load("tmp/best_model")
 
 def main():
     steps = 0
