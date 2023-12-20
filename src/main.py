@@ -4,11 +4,10 @@ from stable_baselines3 import PPO
 from stable_baselines3.common.atari_wrappers import MaxAndSkipEnv
 
 
-model = PPO.load("tmp/best_model")
+model = PPO.load("tmp/best_model/best_model")
 
 def main():
     steps = 0
-    #env = retro.make(game='MegaMan2-Nes')
     env = retro.make(game='SuperMarioBros-Nes')
     env = MaxAndSkipEnv(env, 4)
 
