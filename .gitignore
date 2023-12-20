@@ -9,6 +9,8 @@ __pycache__/
 # ROM file
 *.nes
 
+board/
+
 # Distribution / packaging
 .Python
 build/
