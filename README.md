@@ -11,7 +11,7 @@ This is an AI I made in order to get into the world of Reinforcement Learning. M
 ```
 python -m tensorboard --log_dir "tensorboard/" 
 ```
-2. Run `tran.py`:
+2. Run `train.py`:
 ```
 python src/train.py
 ```
