@@ -43,7 +43,7 @@ if __name__ == '__main__':
     print("-------------------------------------------------> Training <-------------------------------------------------")
 
     callback = SaveOnBestTrainingRewardCallback(check_freq=1000, log_dir=LOGS)
-    model.learn(total_timesteps=50000, callback=callback, tb_log_name="PPO-00003")
+    model.learn(total_timesteps=5000000, callback=callback, tb_log_name="PPO-00003")
     model.save(NAME)
     print("------------- Done Learning -------------")
     env.close()
